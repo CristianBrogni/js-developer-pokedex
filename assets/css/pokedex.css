@@ -84,6 +84,11 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+    cursor: pointer;
+}
+
+.pokemon:hover {
+    box-shadow: 0px 5px 10px 0px;
 }
 
 .pokemon .number {
@@ -136,6 +141,7 @@
     padding: 1rem;
 }
 
+
 .pagination button {
     padding: .25rem .5rem;
     margin: .25rem 0;
@@ -144,7 +150,9 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
+    cursor: pointer;
 }
+
 
 @media screen and (min-width: 380px) {
     .pokemons {
